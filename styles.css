@@ -2,7 +2,7 @@
 .green{color:#1c593f ;}
 
 h1{padding-top:70px; text-align: center;  font-family: 'Josefin Sans', sans-serif; color:darkgreen;}
-h2{font-size: 40px; font-family: 'Josefin Sans', sans-serif; }
+h2{font-size: 40px; font-family: 'Josefin Sans', sans-serif; margin-top:10px;}
 h3{font-family: 'Josefin Sans', sans-serif;}
 h4{font-family: 'Josefin Sans', sans-serif;}
 h5{font-family: 'Josefin Sans', sans-serif;}
@@ -14,6 +14,8 @@ a{font-family: 'Josefin Sans', sans-serif; font-size: 20px;}
 .navbar-custom {
     background-color: #fff2cc;
 }
+
+.font1{font-family: 'Josefin Sans', sans-serif;}
 
 .btn-custom{background-color: #1c593f ; font-family: 'Quicksand', sans-serif;}
 
@@ -156,12 +158,13 @@ body {
 .popup {
   float:right;
     margin-top: 850px;
-    margin-right: 80px;
+    margin-left:1000px;
   padding: 20px;
   background: #fff2cc;
   border-radius: 5px;
-  width: 30%;
-  position: relative;
+  width: 40%;
+  position: absolute;
+    display: block;
 border: 5px;
     border-color: black;
 }
@@ -197,5 +200,4 @@ border: 5px;
     width: 70%;
   }
 }
-
 
