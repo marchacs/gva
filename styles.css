@@ -101,6 +101,9 @@ section{padding: 40px;}
 	box-shadow: 2px 2px 3px #999;
 }
 
+
+
+
 .my-float{
 	margin-top:22px;
 }
@@ -216,3 +219,68 @@ input{font-family: 'Quicksand', sans-serif; font-size: 20px;}
 .ocean{color:#F1F8F7;}
 
 .maincolor{color:#fff2cc;}
+
+
+//new code for note pop up//
+
+.popup2 {
+  float:right;
+    margin-top: 600px;
+  padding: 20px;
+  background: #fff2cc;
+  border-radius: 5px;
+  width: 40%;
+  position: absolute;
+    display: block;
+    bottom:110px;
+	right:170px;
+border: 5px;
+    border-color: black;
+
+}
+
+.popup2 h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup2 .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup2 .close:hover {
+  color: black;
+}
+.popup2 .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup2{
+    width: 70%;
+  }
+}
+.float2{
+	position:fixed;
+	width:80px;
+	height:60px;
+	bottom:40px;
+	right:100px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+    margin-right:15px;
+}
+
