@@ -1,19 +1,20 @@
 
 .green{color:#1c593f ;}
 
-h1{padding-top:70px; text-align: center;  font-family: 'Josefin Sans', sans-serif; color:darkgreen;}
+h1{padding-top:70px; text-align: center;  font-family: 'Josefin Sans', sans-serif; color:darkgreen; font-size: 45px;}
 h2{font-size: 40px; font-family: 'Josefin Sans', sans-serif; margin-top:10px;}
 h3{font-family: 'Josefin Sans', sans-serif;}
 h4{font-family: 'Josefin Sans', sans-serif;}
 h5{font-family: 'Josefin Sans', sans-serif;}
-a:hover{color:#0b2218; font-family: 'Josefin Sans', sans-serif;}
+a:hover{color:#0b2218; font-family: 'Quicksand', sans-serif;}
 p{font-family: 'Josefin Sans', sans-serif;}
 
-a{font-family: 'Josefin Sans', sans-serif; font-size: 20px;}
+a{font-family: 'Quicksand', sans-serif; font-size: 25px;}
 
 .navbar-custom {
     background-color: #fff2cc;
 }
+header{background-color:#F1F8F7;}
 
 .font1{font-family: 'Josefin Sans', sans-serif;}
 
@@ -22,6 +23,9 @@ a{font-family: 'Josefin Sans', sans-serif; font-size: 20px;}
 body{background-color:#FDFDFB; }
 
 .card{margin:15px;
+    border-color: #fff2cc;
+    border-radius: 10px;
+    border-width: 2px;
 }
 
 
@@ -35,7 +39,7 @@ btn{font-family: 'Quicksand', sans-serif;}
 nav{margin-bottom:50px; }
 
 
-main{margin-top: 60px;}
+main{margin-top: 50px;}
 
 ;
 @media (max-width:100px) {
@@ -62,14 +66,16 @@ main{margin-top: 60px;}
     }
 }
 
-.calcustom{color:#fff2cc;}
+.calcustom{color:#fff2cc;
+            border:5px;
+            border-color:black;}
 
-.row-custom{ background-color:#fff2cc;}
+.row-custom{ background-color:#F1F8F7;}
 footer{padding-top:50px;
         }
 
 .darkgreen{color:#0b2218;}
-container{padding: 50px;}
+container{padding: 10px;}
 
 section{padding: 40px;}
 
@@ -157,7 +163,7 @@ body {
 
 .popup {
   float:right;
-    margin-top: 850px;
+    margin-top: 600px;
     margin-left:1000px;
   padding: 20px;
   background: #fff2cc;
@@ -165,6 +171,8 @@ body {
   width: 40%;
   position: absolute;
     display: block;
+    bottom:100px;
+	right:100px;
 border: 5px;
     border-color: black;
 }
@@ -201,3 +209,10 @@ border: 5px;
   }
 }
 
+label{ font-family: 'Quicksand', sans-serif; font-size: 20px; }
+
+input{font-family: 'Quicksand', sans-serif; font-size: 20px;}
+
+.ocean{color:#F1F8F7;}
+
+.maincolor{color:#fff2cc;}
